@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;900&display=swap');
 
 *{
     padding: 0;
@@ -12,7 +12,7 @@ body{
 }
 
 .main{
-    padding: 0 29px;
+    padding: 0 30px;
     position: relative;
     overflow-x: hidden;
     background: #232323;
@@ -22,7 +22,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 29px 0;
+    padding: 30px 0;
 }
 
 .navbar .logo{
@@ -30,10 +30,12 @@ body{
     font-weight: 900;
     font-size: 27px;
     text-decoration: none;
+    
 }
 
 .navbar .item{
     font-size: 20px;
+    font-weight: 400;
     color: #FFF;
     cursor: pointer;
 }
@@ -46,3 +48,32 @@ body{
     margin-right: 20px;
 }
 
+.name-sub-1, .name-sub-2{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.name, .name-outline{
+    font-family: 'Poppins';
+    font-size: 165px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 31.35px;
+    text-transform: uppercase;
+    color: #F0DF3A;
+}
+
+.name-outline{
+
+}
+
+.image.ziki{
+    width: 788px;
+    height: 1183px;
+    flex-shrink: 0;
+}
